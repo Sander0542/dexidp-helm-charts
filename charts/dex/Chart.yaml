@@ -1,11 +1,11 @@
 apiVersion: v2
 type: application
 name: dex
-version: 0.25.0
-appVersion: "2.44.0"
-kubeVersion: ">=1.14.0-0"
+version: 0.27.0
+appVersion: "2.46.0"
+kubeVersion: ">=1.20.0-0"
 description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors.
-icon: https://dexidp.io/favicons/favicon.png
+icon: https://dexidp.io/favicons/favicon.svg
 keywords:
   - oidc
   - oauth
@@ -25,4 +25,4 @@ annotations:
       description: "loadBalancerSourceRanges suppport in the service"
   artifacthub.io/images: |
     - name: dex
-      image: ghcr.io/dexidp/dex:v2.44.0
+      image: ghcr.io/dexidp/dex:v2.46.0
